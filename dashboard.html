@@ -1,0 +1,11 @@
+<h2 style="text-align: center; color: #333;">Hi, {{ user.username }}!</h2>
+
+<div style="max-width: 400px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); text-align: center; font-family: Arial, sans-serif;">
+    
+    <div style="margin-bottom: 20px;">
+        <a href="{% url 'profile' %}" style="display: block; text-decoration: none; color: #007BFF; font-size: 16px; margin-bottom: 10px;">Profile</a>
+        <a href="{% url 'change_password' %}" style="display: block; text-decoration: none; color: #007BFF; font-size: 16px; margin-bottom: 10px;">Change Password</a>
+        <a href="{% url 'logout' %}" style="display: block; text-decoration: none; color: #ff4d4d; font-size: 16px;">Logout</a>
+    </div>
+
+</div>

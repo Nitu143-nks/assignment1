@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Login Page -->
+    <div style="text-align: center; margin: 20px;">
+        <h2 style="color: #4CAF50;">Login Page</h2>
+        <button onclick="window.location.href='{% url 'login' %}'" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Login</button>
+    </div>
+
+    <!-- Sign Up Page -->
+    <div style="text-align: center; margin: 20px;">
+        <h2 style="color: #4CAF50;">Sign Up Page</h2>
+        <button onclick="window.location.href='{% url 'signup' %}'" style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Sign Up</button>
+    </div>
+
+    <!-- Forgot Password Page -->
+    <div style="text-align: center; margin: 20px;">
+        <h2 style="color: #4CAF50;">Forgot Password Page</h2>
+        <button onclick="window.location.href='{% url 'forgot_password' %}'" style="background-color: #ff9800; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Forgot Password</button>
+    </div>
+
+    <!-- Change Password Page -->
+    <div style="text-align: center; margin: 20px;">
+        <h2 style="color: #4CAF50;">Change Password Page</h2>
+        <button onclick="window.location.href='{% url 'change_password' %}'" style="background-color: #ff5722; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Change Password</button>
+    </div>
+
+    <!-- Dashboard -->
+    <div style="text-align: center; margin: 20px;">
+        <h2 style="color: #4CAF50;">Dashboard</h2>
+        <button onclick="window.location.href='{% url 'dashboard' %}'" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Go to Dashboard</button>
+    </div>
+
+    <!-- Profile Page -->
+    <div style="text-align: center; margin: 20px;">
+        <h2 style="color: #4CAF50;">Profile Page</h2>
+        <button onclick="window.location.href='{% url 'profile' %}'" style="background-color: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Go to Profile</button>
+    </div>
+    
+</body>
+</html>
